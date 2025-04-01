@@ -19,7 +19,7 @@ $opcio_maquina=$maquina[$aleatori];
 
 echo "La màquina ha escollit ". $opcio_maquina . "<br><br>";
 
-if($usuari = "pedra" && $opcio_maquina = "pedra")
+if($usuari == "pedra" && $opcio_maquina == "pedra")
 {
 echo "Empat";
 }
