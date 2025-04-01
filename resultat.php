@@ -39,7 +39,7 @@ elseif($usuari = "paper" && $opcio_maquina = "pedra")
     echo "Guanya l'usuari";
 }
 
-elseif($usuari = "paper" && $opcio_maquina = "Paper")
+elseif($usuari = "paper" && $opcio_maquina = "paper")
 {
     echo "Empat";
 }
