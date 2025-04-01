@@ -24,42 +24,42 @@ if($usuari = "pedra" && $opcio_maquina = "pedra")
 echo "Empat";
 }
 
-elseif($usuari = "pedra" && $opcio_maquina = "paper")
+elseif($usuari == "pedra" && $opcio_maquina == "paper")
 {
     echo "Guanya la maquina";
 }
 
-elseif($usuari = "pedra" && $opcio_maquina = "tisora")
+elseif($usuari == "pedra" && $opcio_maquina == "tisora")
 {
     echo "Guanya l'usuari";
 }
 
-elseif($usuari = "paper" && $opcio_maquina = "pedra")
+elseif($usuari == "paper" && $opcio_maquina == "pedra")
 {
     echo "Guanya l'usuari";
 }
 
-elseif($usuari = "paper" && $opcio_maquina = "paper")
+elseif($usuari == "paper" && $opcio_maquina == "paper")
 {
     echo "Empat";
 }
 
-elseif($usuari = "paper" && $opcio_maquina = "tisora")
+elseif($usuari == "paper" && $opcio_maquina == "tisora")
 {
     echo "Guanya la maquina";
 }
 
-elseif($usuari = "tisora" && $opcio_maquina = "pedra")
+elseif($usuari == "tisora" && $opcio_maquina == "pedra")
 {
     echo "Guanya la maquina";
 }
 
-elseif($usuari = "tisora" && $opcio_maquina = "tisora")
+elseif($usuari == "tisora" && $opcio_maquina == "tisora")
 {
     echo "Empat";
 }
 
-elseif($usuari = "tisora" && $opcio_maquina = "paper")
+elseif($usuari == "tisora" && $opcio_maquina == "paper")
 {
     echo "Guanya l'usuari";
 }
